@@ -89,7 +89,7 @@ height: 65px;
 width: 20%; */
 }
  .entire-menu-btn-up {
-      /* display: inline-block; */
+      display: inline-block;
       margin-top: -20px;
       letter-spacing: 1px;
       padding: 17px 50px;
@@ -101,8 +101,8 @@ width: 20%; */
       font-weight: 400;
       /* letter-spacing: 0.5em; */
       text-transform: uppercase;
-      cursor: pointer;
-      transition: all 0.3s ease;
+      /* cursor: pointer; */
+      /* transition: all 0.3s ease; */
       text-decoration: none;
       font-family: 'Jost', sans-serif;
       height: 55px;
