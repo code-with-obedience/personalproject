@@ -83,10 +83,10 @@ nav a{
 
 .first-two img{
  width: 150px;
- height: 60px;
+ height: 55px;
  position: relative;
 left: -70px;
-/* top: -10px; */
+top: -10px;
 }
 
 
