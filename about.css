@@ -76,23 +76,18 @@ nav a{
     margin-top: -20px;
     display: flex;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
     /* background-color: yellow; */
   /* * margin-left: 5px;   background-color: yellow; */
 }
 
-.first-two-image{
-    position: absolute;
-    /* width: 50%; */
-    
-    /* justify-content: center; */
+.first-two img{
+ width: 150px;
+ height: 60px;
+ margin-left: -40px;
+ margin-top: -10px;
 }
 
-.first-two-image img{
-    width: 170px;
-    margin-left: -40px;
-    justify-content:space-around;
-}
 
 
 /*  */
