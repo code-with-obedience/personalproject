@@ -84,8 +84,9 @@ nav a{
 .first-two img{
  width: 150px;
  height: 60px;
- margin-left: -40px;
- margin-top: -10px;
+ position: relative;
+left: -70px;
+/* top: -10px; */
 }
 
 
