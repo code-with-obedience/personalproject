@@ -7,7 +7,7 @@ color: white;
 }
 
 body{
-    /* background-color: rgb(16,43,42); */
+    background-color: rgb(16,43,42);
     overflow-x: hidden;
 
 
@@ -134,7 +134,7 @@ display: flex;
 /* padding-left: 7.8rem;
 padding-right: 0.1rem; */
 left: 70px;
-background-color: green;
+/* background-color: green; */
 gap:4.4rem;
      /* flex-shrink: 0; */
 
@@ -245,7 +245,8 @@ background-color: rgb(31,54,52);
 
 .third-one{
     width: 25%;
-    height: 45vh;
+    height: auto;
+    /* background-color: blue; */
     font-weight: 300;
     /* height: auto;  */
 
