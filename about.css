@@ -7,7 +7,7 @@ color: white;
 }
 
 body{
-    background-color: rgb(16,43,42);
+    /* background-color: rgb(16,43,42); */
     overflow-x: hidden;
 
 }
@@ -123,39 +123,49 @@ min-height:7vh;
 /* BEGINNING OF SECOND SECTION */
 
 .second-section{
-margin-top: 225px;
-display: flex;
-padding-left: 7.8rem;
-/* justify-content: center; */
-gap:4.4rem;
-     flex-shrink: 0;
+  background-color: black;
+width: 100%;
+min-height: auto;
+position: relative;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  /* padding-right: 20px; */
+/* gap: ; */
 
 }
 
 
 .second-one{
-    width: 39%;
-    height: 110vh;
+    width: 45%;
+    min-height: 100vh;
     background-image: url(p1-img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-top-left-radius: 30%;
     /* background-position: -10px; */
-     flex-shrink: 0;
+     /* flex-shrink: 0; */
 
 }
 
 .second-two{
     width:57%;
-    height: 110vh;
+    /* height: 110vh; */
+    min-height: auto;
+    /* background-color: green; */
 }
 .second-two-a{
-    width: 47%;
+    width: 34%;
     height: auto;
-    /* background-color: yellow; */
-    margin-left: 12rem;
+    font-size: 17px;
+    position: absolute;
+      /* white-space: nowrap; */
+  top: 20%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  /* background: none; */
+    /* margin-left: 12rem;
     margin-top: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
 }
 .second-two-a p.goals{
     font-size: 36px;
@@ -170,31 +180,36 @@ gap:4.4rem;
     color: rgb(220, 229, 231);
 }
 .second-two-b{
+  width: 49%;
+  min-height: auto;
+  position: absolute;
     display: flex;
-    gap: 60px;
-    margin-top: 7.7rem;
+    /* margin-top: 7.7rem; */
+      top: 73%;
+  left: 74%;
+  gap: 50px;
+  transform: translate(-50%, -50%);
   
 }
 
 .second-two-b img{
-    width: 42%;
+    width: 60%;
     height: auto;
-     flex-shrink: 0;
+     /* flex-shrink: 0; */
 
 }
 .second-two-b p.open{
     font-size: 13px;
     letter-spacing: 2px;
     padding-bottom: 10px;
+    padding-top: 30px;
     font-weight: 460;
+    /* width: 160%; */
 }
 
 .second-two-b p{
     font-weight: 300;
     color: rgb(220, 229, 231);
-}
-.second-two-bi{
-    margin-top: 30px;
 }
 
 .second-two-bii{
