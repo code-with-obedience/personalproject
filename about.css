@@ -196,6 +196,7 @@ position: relative;
 .second-two-b img{
     width: 50%;
     height: auto;
+    display: block;
      /* flex-shrink: 0; */
 
 }
