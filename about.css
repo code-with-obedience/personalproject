@@ -33,9 +33,10 @@ body{
 
 
 .main-div{
-    width: 100%;
+    width: 90%;
 max-width: 1200px;
 min-height: 100vh;
+margin: 0 auto;
 }
 /* BEGNNING OF FIRST SECTION */
 
@@ -44,7 +45,7 @@ min-height: 100vh;
   width: 100%;
   min-height: 50vh;
   position: relative;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   margin-top: 15px;
   padding-top: 20px;
   padding-right: 15px;
@@ -61,10 +62,10 @@ min-height: 100vh;
     /* display: flex; */
     /* justify-content: space-between; */
     /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-position: -70px; */
-    /* background-image: url(h1-img8.jpg); */
+    background-image: url(h1-img8.jpg);
 }
 
 nav{
