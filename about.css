@@ -44,13 +44,13 @@ margin: 0 auto;
 /* BEGNNING OF FIRST SECTION */
 
 .first-section{
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 100%;
-  min-height: 50vh;
+  min-height: 70vh;
   position: relative;
   /* margin-left: 10px; */
   margin-top: 15px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-right: 15px;
   padding-left: 20px;
   display: flex;
@@ -65,13 +65,13 @@ margin: 0 auto;
     /* display: flex; */
     /* justify-content: space-between; */
     /* background-position: center; */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+  
+    background-size: cover; 
+    background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    /* background-position: -70px; */
+    /* background-position: center; */
     /* background-position: bottom; */
     background-image: url(h1-img8.jpg);
-    background-size: 100% 100%; /* Width 100%, Height 100% */
 
 }
 
