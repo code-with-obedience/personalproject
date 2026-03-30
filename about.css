@@ -64,7 +64,9 @@ margin: 0 auto;
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
     /* background-position: -70px; */
+    background-position: center;
     background-image: url(h1-img8.jpg);
 }
 
