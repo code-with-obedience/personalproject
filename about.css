@@ -10,28 +10,16 @@ body{
     background-color: rgb(16,43,42);
     overflow-x: hidden;
 
-
-}
-
-.main-div{
-   width: 90%;
-   max-width: 1200px;
-   margin: 0 auto;
-    /* background-color: rgb(16,43,42); */
-
-  
 }
 
 .line-design{
     /* width: 600px; */
     /* height: 50vh; */
     /* background-color: yellow; */
-     /* position: absolute; */
+     position: absolute;
   z-index: -1;
-  position: absolute;
   width:530px;
-  min-height: 600rem;
-  
+  height: 630rem;
   /* background:#ddd; */
   /* position:absolute; */
   /* top:50%; */
@@ -43,24 +31,40 @@ body{
 
 }
 
-/* /* @media (max-width: 1400px) { } */
-/* @media (max-width: 1024px) { } */
-/* @media (max-width: 768px) { } */ 
+
+.main-div{
+    width: 100%;
+max-width: 1200px;
+min-height: 100vh;
+}
 /* BEGNNING OF FIRST SECTION */
 
 .first-section{
-  padding: 20px;
-     padding-top: 60px;
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: -70px;
-    background-position-y: 20px;
-    background-image: url(h1-img8.jpg);
-    min-height: 500px;
+  background-color: yellow;
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  /* justify-content: space-between; */
+      /* margin: 0 auto; */
+  /* padding: 30px; */
+     /* padding-top: 35px; */
+  /* padding-left: 30px; */
+    /* margin: 20px; */
+    /* max-width: 400%; */
+    /* height: 80vh; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: -70px; */
+    /* background-image: url(h1-img8.jpg); */
 }
 
 nav{
@@ -74,101 +78,76 @@ nav a{
     text-decoration:  none;
     letter-spacing: 1px;
 }
-.first-two{
-    margin-top: -20px;
+/* .first-two{
+    margin-top: -15px;
     display: flex;
     justify-content: center;
-    /* position: relative; */
-    /* background-color: yellow; */
-  /* * margin-left: 5px;   background-color: yellow; */
+    height: 8vh;
+width: 20%;
+margin-left: -13rem;
+
+} */
+ .first-section img{
+ width: 15%;
+  height: auto;
+  display: block;
+  position: absolute;
+    top: 10%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+ }
+
+
+.first-button{
+  position: absolute;
+  width:16%;
+min-height:6vh;
+ display: inline-block;
+  white-space: nowrap;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: 1px solid burlywood;
 }
-
-.first-two img{
- width: 150px;
- height: 55px;
- position: relative;
-left: -70px;
-top: -10px;
-}
-
-
-
-/*  */
- .entire-menu-btn-up {
-      /* display: inline-block; */
-      margin-top: -20px;
-      letter-spacing: 1px;
-      /* margin-left: 40px; */
-      padding: 16px 45px;
-      border: 1px solid rgb(181,140,103);
-      background: transparent;
-      color:white ;
-      font-family: 'Jost', sans-serif;
-      font-size: 0.7rem;
-      font-weight: 400;
-      /* letter-spacing: 0.5em; */
-      text-transform: uppercase;
-      /* cursor: pointer; */
-      /* transition: all 0.3s ease; */
-      text-decoration: none;
-      font-family: 'Jost', sans-serif;
-      height: 50px;
-      /* width: 18%; */
-
-    }
-
-    /* .entire-menu-btn-up a{
-        width: 90%;
-    } */
 /* ENDING */
-
 
 /* BEGINNING OF SECOND SECTION */
 
 .second-section{
-    width: 90%;
-    min-height: 20vh;
-    /* max-width: 1500px; */
-/* margin-top: 225px; */
-position: relative;
-top: 220px;
+margin-top: 225px;
 display: flex;
-/* padding-left: 7.8rem;
-padding-right: 0.1rem; */
-left: 70px;
-/* background-color: green; */
+padding-left: 7.8rem;
+/* justify-content: center; */
 gap:4.4rem;
-     /* flex-shrink: 0; */
+     flex-shrink: 0;
 
 }
 
 
-
-
 .second-one{
-    width: 55%;
-    min-height: 100vh;
+    width: 39%;
+    height: 110vh;
     background-image: url(p1-img1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-top-left-radius: 30%;
     /* background-position: -10px; */
-    /* min-height: 300px; */
-     /* flex-shrink: 0; */
+     flex-shrink: 0;
 
 }
 
 .second-two{
     width:57%;
-    min-height: 100vh;
+    height: 110vh;
 }
 .second-two-a{
-    width: 75%;
+    width: 47%;
     height: auto;
+    /* background-color: yellow; */
     margin-left: 12rem;
-    margin-top: 10px;
-    /* padding-bottom: 20px; */
-    display: inline-block;
+    margin-top: 24px;
+    padding-bottom: 20px;
 }
 .second-two-a p.goals{
     font-size: 36px;
@@ -185,14 +164,12 @@ gap:4.4rem;
 .second-two-b{
     display: flex;
     gap: 60px;
-    /* margin-top: 4.5rem; */
-    position:relative;
-    top: 7.7rem;
-  /* background-color: yellow; */
+    margin-top: 7.7rem;
+  
 }
 
 .second-two-b img{
-    width: 48%;
+    width: 42%;
     height: auto;
      flex-shrink: 0;
 
@@ -200,12 +177,12 @@ gap:4.4rem;
 .second-two-b p.open{
     font-size: 13px;
     letter-spacing: 2px;
-    /* padding-bottom: 10px; */
+    padding-bottom: 10px;
     font-weight: 460;
 }
 
 .second-two-b p{
-    font-weight: 300;   
+    font-weight: 300;
     color: rgb(220, 229, 231);
 }
 .second-two-bi{
@@ -213,17 +190,12 @@ gap:4.4rem;
 }
 
 .second-two-bii{
-    display: flex;
-    margin-left: 11rem;
-    margin-top: -2rem;
- 
-    /* margin-top: -150px;
-    margin-left: 320px; */
+    margin-top: -150px;
+    margin-left: 320px;
             font-family: 'Parisienne', cursive;
 
-        width: 50%;
+        width: 28%;
         transform: rotate(-8deg);
-        justify-content: flex-end;
 }
 .second-two-bii p{
         font-family:'Allura', cursive;
@@ -231,31 +203,21 @@ gap:4.4rem;
         color: burlywood;
 
 }
-/* ENDING OF SECOND AREA */
-
 /* BEGINNING OF THIRD AREA */
 .third-section{
 display: flex;
-/* gap: 58px; */
-justify-content: space-between;
-margin-top: 29rem;
-padding-left:4rem;
-padding-bottom: 12rem;
+gap: 58px;
+margin-top: 15rem;
+padding-left: 12rem;
+padding-bottom: 225px;
 background-color: rgb(31,54,52);
-/* background-color: green; */
 }
 
 .third-one{
-    width: 25%;
-    height: auto;
-    /* background-color: blue; */
+    width: 24%;
     font-weight: 300;
-    /* height: auto;  */
-
-    position: relative;
-    top: 10em;
-    /* background-color: blue; */
-    /* margin-top: 5rem; */
+    height: auto; 
+    margin-top: 200px;
 }
 .third-one p{
     line-height:30px ;
@@ -287,7 +249,7 @@ padding-top: 10px;
 
 /* BEGINNING OF FOURTH-SECTION */
 .fourth-section{
-    margin-top: 8rem;
+    margin-top: 135px;
 text-align: center;
 margin-bottom: 50px;
 }
@@ -309,14 +271,14 @@ margin-bottom: 50px;
 
 .fifth-section{
     display: flex;
-    justify-content: space-between;
-    /* gap: 129px; */
+    justify-content: center;
+    gap: 129px;
     margin-top: 60px;
-    /* margin-bottom: 300px; */
+    margin-bottom: 300px;
 }
 .fifth-one{
-    width: 25%;
-    height: 50vh;
+    width: 20.5%;
+    height: 56vh;
     background-color: yellow;
     background-image: url(p1-img4.jpg);
     background-size: cover;
@@ -330,7 +292,7 @@ margin-bottom: 50px;
 }
 
 .fifth-one p.celeberate{
-        padding-top: 26rem;
+    padding-top: 460px;
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -339,8 +301,8 @@ margin-bottom: 50px;
 }
 
 .fifth-two{
-    width: 25%;
-    height: 50vh;
+    width: 20.5%;
+    height: 56vh;
     background-color: yellow;
     background-image: url(p1-img5.jpg);
     background-size: cover;
@@ -356,7 +318,7 @@ margin-bottom: 50px;
 }
 
 .fifth-two p.celeberate{
-    padding-top: 26rem;
+    padding-top: 460px;
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -365,8 +327,8 @@ margin-bottom: 50px;
 }
 
 .fifth-three{
-width: 25%;
-    height: 50vh;
+    width: 20.5%;
+    height: 56vh;
     background-color: yellow;
     background-image: url(p1-img6.jpg);
     background-size: cover;
@@ -382,7 +344,7 @@ width: 25%;
 }
 
 .fifth-three p.celeberate{
-       padding-top: 26rem;
+    padding-top: 460px;
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -393,15 +355,11 @@ width: 25%;
 /* BEGINNING OF SIXTH SECTION */
 .sixth-section{
     width: 100%;
-    /* max-width: 1200px; */
-    min-height: 500px;
+    height: 680px;
     /* background-color: yellow; */
     background-image: url(p1-img7.jpg);
     background-size: cover;
     background-position: -160px;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 20rem;
 }
 
 .sixth-section img{
@@ -409,11 +367,11 @@ width: 25%;
     width: 9%;
     opacity: 8; */
     /* width: 150px; */
-    margin-left: 27rem;
-    margin-top: 32rem;
+    margin-left: 60rem;
+    margin-top: 42rem;
 
-     width: 140px;
-  height: 140px;
+     width: 150px;
+  height: 150px;
 }
 
     /* .hero {
@@ -597,16 +555,7 @@ font-weight: 300;
 
 footer{
     background-color: rgb(4, 41, 41);
-    width: 100%;
-    max-width: 1600px;
-    /* min-height: 80vh; */
-    overflow-x: hidden;
-    padding-left: 70px;
-    padding-right: 70px;
 }
-/* footer p{
-    background-color: blue;
-} */
 
 /* BEGINNING OF TENTH SECTION */
 
