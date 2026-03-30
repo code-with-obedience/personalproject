@@ -154,12 +154,12 @@ position: relative;
     /* background-color: green; */
 }
 .second-two-a{
-    width: 34%;
+    width: 33%;
     height: auto;
     font-size: 17px;
     position: absolute;
       /* white-space: nowrap; */
-  top: 20%;
+  top: 25%;
   left: 82%;
   transform: translate(-50%, -50%);
   /* background: none; */
@@ -168,7 +168,7 @@ position: relative;
     padding-bottom: 20px; */
 }
 .second-two-a p.goals{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 399.5;
     line-height: 40px;
     padding-bottom: 18px;
@@ -178,6 +178,7 @@ position: relative;
     line-height:30px ;
     font-weight: 300;
     color: rgb(220, 229, 231);
+    font-size: 15px;
 }
 .second-two-b{
   width: 49%;
@@ -185,7 +186,7 @@ position: relative;
   position: absolute;
     display: flex;
     /* margin-top: 7.7rem; */
-      top: 73%;
+      top: 76%;
   left: 74%;
   gap: 50px;
   transform: translate(-50%, -50%);
@@ -193,7 +194,7 @@ position: relative;
 }
 
 .second-two-b img{
-    width: 60%;
+    width: 50%;
     height: auto;
      /* flex-shrink: 0; */
 
