@@ -43,7 +43,7 @@ margin: 0 auto;
 .first-section{
   background-color: yellow;
   width: 100%;
-  min-height: 50vh;
+  min-height: 60vh;
   position: relative;
   /* margin-left: 10px; */
   margin-top: 15px;
@@ -66,7 +66,7 @@ margin: 0 auto;
     background-size: cover;
     /* background-attachment: fixed; */
     /* background-position: -70px; */
-    background-position: bottom;
+    /* background-position: bottom; */
     background-image: url(h1-img8.jpg);
 }
 
@@ -96,15 +96,15 @@ margin-left: -13rem;
   display: block;
   position: absolute;
     top: 10%;
-  left: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
  }
 
 
 .first-button{
   position: absolute;
-  width:16%;
-min-height:6vh;
+  width:15%;
+min-height:7vh;
  display: inline-block;
   white-space: nowrap;
   top: 10%;
