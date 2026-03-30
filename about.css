@@ -7,7 +7,7 @@ color: white;
 }
 
 body{
-    /* background-color: rgb(16,43,42); */
+    background-color: rgb(16,43,42);
     overflow-x: hidden;
 
 }
@@ -51,8 +51,8 @@ margin: 0 auto;
   /* margin-left: 10px; */
   margin-top: 15px;
   padding-top: 30px;
-  padding-right: 15px;
-  padding-left: 20px;
+  /* padding-right: 15px; */
+  padding-left: 30px;
   display: flex;
   /* justify-content: space-between; */
       /* margin: 0 auto; */
