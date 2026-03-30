@@ -180,24 +180,25 @@ position: relative;
     color: rgb(220, 229, 231);
     font-size: 15px;
 }
-.second-two-b{
-  width: 49%;
-  min-height: auto;
-  position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-top: 7.7rem; */
-      top: 76%;
-  left: 74%;
-  gap: 50px;
+.second-two-b {
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+position: absolute;
+  flex-wrap: wrap; /* 🔥 important */
+    top: 75%;
+  left: 70%;
   transform: translate(-50%, -50%);
-  
 }
 
 .second-two-b img{
-    width: 50%;
-    height: auto;
-    display: block;
+    width: 100%;
+  max-width: 300px;
+  height: auto;
      /* flex-shrink: 0; */
 
 }
@@ -205,15 +206,19 @@ position: relative;
     font-size: 13px;
     letter-spacing: 2px;
     padding-bottom: 10px;
-    padding-top: 30px;
+    /* padding-top: 20px; */
     font-weight: 460;
     /* width: 160%; */
 }
 
 .second-two-b p{
     font-weight: 300;
+    /* max-width: 300px; */
     color: rgb(220, 229, 231);
 }
+/* .second-two-bi {
+  
+} */
 
 .second-two-bii{
     margin-top: -150px;
