@@ -139,6 +139,8 @@ min-height:7vh;
     background-image: url(p1-img1.jpg);
 background-size: cover;
 border-top-left-radius: 200px;
+     /* aspect-ratio: 1 / 1; This forces the height to be equal to the width */
+
 }
 
 .second-two{
@@ -150,6 +152,7 @@ border-top-left-radius: 200px;
      left: 72%;
   transform: translate(-50%, -50%);
   /* background: none;/ */
+
 }
 
 .goals{
@@ -172,6 +175,13 @@ border-top-left-radius: 200px;
     padding-top: 10px;
     margin-left: 10rem;
 
+}
+.second-three{
+  display: flex;
+  gap: 40px;  
+}
+.second-three img{
+    width: 40%;
 }
 /* ENDING OF SECOND AREA */
 
