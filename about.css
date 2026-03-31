@@ -127,6 +127,7 @@ min-height:7vh;
     max-width: 1200px;
     min-height: 100vh;
     position: relative;
+margin-top: 200px;
     /* flex: 1; */
 
 }
@@ -187,6 +188,20 @@ border-top-left-radius: 200px;
 }
 .second-three img{
     width: 40%;
+}
+.art{
+     position: absolute; /* Takes the image out of the normal flow */
+  bottom: 0; /* Aligns the bottom of the image with the bottom of the wrapper */
+  left: 16rem; 
+  /* background-color: gray; */
+  font-size: 50px;
+  font-weight: 400;
+  width: 30%;
+  font-family: 'Mrs Saint Delafield', cursive;
+  transform: rotate(-20deg);
+  color: rgb(196, 152, 113);
+  /* margin-left: 60px; */
+
 }
 /* ENDING OF SECOND AREA */
 
