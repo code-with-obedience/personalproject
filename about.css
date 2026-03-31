@@ -190,13 +190,21 @@ h1 {
 }
 
 .hours {
-    margin-top: 2rem;
+    width:50% ;
+    /* margin-top: 2rem; */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 23rem;
+  margin-top: -20rem;
+  /* justify-content: ; */
 }
 
 .hours h5 {
     font-size: 0.9rem;
     letter-spacing: 1px;
-    margin-bottom: 0.8rem;
+    /* margin-bottom: 0.8rem; */
+    /*  */
     color: #bbb;
     text-transform: uppercase;
 }
