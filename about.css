@@ -7,7 +7,7 @@ color: white;
 }
 
 body{
-    /* background-color: rgb(16,43,42); */
+    background-color: rgb(16,43,42);
     overflow-x: hidden;
 
 }
@@ -177,8 +177,11 @@ border-top-left-radius: 200px;
 
 }
 .second-three{
+    /* margin-top: 50px; */
   display: flex;
-  gap: 40px;  
+  /* justify-content: baseline; */
+  gap: 40px; 
+  margin-top: 250px;
 }
 .second-three img{
     width: 40%;
