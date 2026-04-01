@@ -7,7 +7,7 @@ color: white;
 }
 
 body{
-    background-color: rgb(16,43,42);
+    /* background-color: rgb(16,43,42); */
     overflow-x: hidden;
 
 }
@@ -209,44 +209,56 @@ border-top-left-radius: 200px;
 
 /* BEGINNING OF THIRD AREA */
 .third-section{
-display: flex;
-gap: 58px;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 85vh;
+/* display: flex; */
+/* gap: 10px; */
 margin-top: 15rem;
-padding-left: 12rem;
-padding-bottom: 225px;
+position: relative;
+/* padding-left: 12rem; */
+/* padding-bottom: 225px; */
 background-color: rgb(31,54,52);
+/* background-color: green; */
 }
 
-.third-one{
-    width: 24%;
-    font-weight: 300;
-    height: auto; 
-    margin-top: 200px;
-}
+
 .third-one p{
     line-height:30px ;
     color: rgb(220, 229, 231);
     font-size: 17px;
 }
 
-.third-one p.food{
+.food{
+    padding-top: 10rem;
     font-size: 38px;
     line-height: 40px;
     letter-spacing: 3px;
     padding-bottom: 14px;
 }
-.third-one p.conse{
+.conse{
 padding-top: 10px;
+
 }
 
+.third-section p{
+    width: 30%;
 
+}
 .third-two{
-    width: 72%;
-    height: 80vh;
+    width: 67%;
+    min-height: 100vh;
     background-image: url(p1-img3.jpg);
-    background-size: cover;
-     flex-shrink: 0;
-     margin-top: -100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+  left: 33%; 
+  top: -15%;
+/* bottom: 1px; */
+    /* background-color: pink; */
+   
+     /* flex-shrink: 0; */
+     /* margin-top: -100px; */
 
 }
 /* ENDING */
