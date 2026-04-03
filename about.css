@@ -37,7 +37,7 @@ body{
 max-width: 1200px;
 min-height: 90vh;
 margin: 0 auto;
-    background-color: rgb(16,43,42);
+    /* background-color: rgb(16,43,42); */
 
 
 }
@@ -216,12 +216,15 @@ border-top-left-radius: 200px;
 /* gap: 10px; */
 margin-top: 15rem;
 position: relative;
-/* padding-left: 12rem; */
+padding-left: 20px;
 /* padding-bottom: 225px; */
 background-color: rgb(31,54,52);
 /* background-color: green; */
 }
 
+.third-section p{
+    font-weight: 300;
+}
 
 .third-one p{
     line-height:30px ;
@@ -235,9 +238,11 @@ background-color: rgb(31,54,52);
     line-height: 40px;
     letter-spacing: 3px;
     padding-bottom: 14px;
+    font-weight: 300;
 }
 .conse{
 padding-top: 10px;
+font-weight: 300;
 
 }
 
@@ -286,29 +291,39 @@ margin-bottom: 50px;
 /* BEGINNING OF FIFTH AREA */
 
 .fifth-section{
+    width: 100%;
+    max-width: 1200px;
+    min-height: 30vh;
+    /* background-color: black; */
     display: flex;
-    justify-content: center;
-    gap: 129px;
+    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* gap: 129px; */
     margin-top: 60px;
-    margin-bottom: 300px;
+   
 }
 .fifth-one{
-    width: 20.5%;
-    height: 56vh;
-    background-color: yellow;
+    width: 26%;
+    min-height: 10vh;
+    /* background-color: yellow; */
     background-image: url(p1-img4.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     text-align: center;
 }
 .fifth-one p{
     font-weight: 300;
     line-height: 30px;
-    color: rgb(220, 229, 231)
+    color: rgb(220, 229, 231);
+    /* position: absolute; */
+    
 
 }
 
 .fifth-one p.celeberate{
-    padding-top: 460px;
+    padding-top: 27rem;
+    /* padding-top: 460px; */
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -317,14 +332,15 @@ margin-bottom: 50px;
 }
 
 .fifth-two{
-    width: 20.5%;
-    height: 56vh;
-    background-color: yellow;
-    background-image: url(p1-img5.jpg);
-    background-size: cover;
+    width: 26%;
+    min-height: 10vh;
+    /* background-color: yellow; */
+    background-image:url(p1-img5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     text-align: center;
-    border-top-left-radius: 48%;
-    border-top-right-radius: 48%;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
     
 }
 .fifth-two p{
@@ -334,7 +350,8 @@ margin-bottom: 50px;
 }
 
 .fifth-two p.celeberate{
-    padding-top: 460px;
+       padding-top: 27rem;
+
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -343,11 +360,12 @@ margin-bottom: 50px;
 }
 
 .fifth-three{
-    width: 20.5%;
-    height: 56vh;
-    background-color: yellow;
+      width: 26%;
+    min-height: 10vh;
+    background-repeat: no-repeat;
+    /* background-color: yellow; */
     background-image: url(p1-img6.jpg);
-    background-size: cover;
+     background-size: contain;
     text-align: center;
     
     
@@ -360,7 +378,7 @@ margin-bottom: 50px;
 }
 
 .fifth-three p.celeberate{
-    padding-top: 460px;
+ padding-top: 27rem;
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -376,6 +394,7 @@ margin-bottom: 50px;
     background-image: url(p1-img7.jpg);
     background-size: cover;
     background-position: -160px;
+    margin-top: 200px;
 }
 
 .sixth-section img{
