@@ -45,7 +45,8 @@ margin: 0 auto;
 
 .first-section{
   /* background-color: yellow; */
-  width: 100%;
+   width: calc(100vw - 50px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
   min-height: 70vh;
   position: relative;
   /* margin-left: 10px; */
