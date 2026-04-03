@@ -45,12 +45,12 @@ margin: 0 auto;
 
 .first-section{
   /* background-color: yellow; */
-   width: calc(100vw - 50px); /* full width minus 20px + 20px */
+   width: calc(100vw - 55px); /* full width minus 20px + 20px */
   margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
   min-height: 70vh;
   position: relative;
   /* margin-left: 10px; */
-  margin-top: 15px;
+  margin-top: 25px;
   padding-top: 30px;
   /* padding-right: 15px; */
   padding-left: 30px;
@@ -210,55 +210,59 @@ border-top-left-radius: 200px;
 
 /* BEGINNING OF THIRD AREA */
 .third-section{
-    width: 100%;
-    max-width: 1200px;
+     width: calc(100vw); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50%); /* shift + add left spacing */
     min-height: 85vh;
 /* display: flex; */
 /* gap: 10px; */
 margin-top: 15rem;
 position: relative;
-padding-left: 20px;
+padding-left: 15rem;
 /* padding-bottom: 225px; */
 background-color: rgb(31,54,52);
 /* background-color: green; */
 }
 
 .third-section p{
+    /* position: absolute; */
+    width: 26%;
+    /* font-size: 20px; */
+    
+
+}
+.third-section p{
     font-weight: 300;
 }
 
-.third-one p{
-    line-height:30px ;
-    color: rgb(220, 229, 231);
-    font-size: 17px;
-}
 
 .food{
     padding-top: 10rem;
     font-size: 38px;
     line-height: 40px;
     letter-spacing: 3px;
-    padding-bottom: 14px;
+    padding-bottom: 25px;
     font-weight: 300;
+}
+.lorems{
+    font-size: 17px;
+    line-height: 30px;
 }
 .conse{
 padding-top: 10px;
+    line-height: 30px;
 font-weight: 300;
 
 }
 
-.third-section p{
-    width: 30%;
 
-}
 .third-two{
-    width: 67%;
+    width: 61.5%;
     min-height: 100vh;
     background-image: url(p1-img3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-  left: 33%; 
+  left: 39%; 
   top: -15%;
 /* bottom: 1px; */
     /* background-color: pink; */
