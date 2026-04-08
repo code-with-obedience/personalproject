@@ -219,9 +219,11 @@ min-height:7vh;
 
     color: burlywood;
 }
+/*ENDING OF THIRD SECTION */
 
+/* BEGINNING OF FOURTH SECTIN */
 
-    .chef-section {
+    .fourth-section {
       /* background: #0e2f2d; */
       padding: 80px 20px;
          width: calc(100vw - 55px); /* full width minus 20px + 20px */
@@ -231,7 +233,7 @@ min-height:7vh;
     }
 
     /* MAIN CONTAINER (IMPORTANT 🔥) */
-    .chef-container {
+    .fourth-container {
       max-width: 1200px;
       min-height: 70vh;
       margin: 0 auto;
@@ -243,12 +245,12 @@ min-height:7vh;
     }
 
     /* LEFT TEXT */
-    .chef-text {
+    .fourth-text {
       flex: 1;
       color: #fff;
     }
 
-    .chef-title {
+    .fourth-title {
       font-family: 'Cormorant', serif;
       /* margin-left: -5rem; */
       font-size: 100px;
@@ -257,7 +259,7 @@ min-height:7vh;
       /* margin-bottom: -20px; */
     }
 
-    .chef-heading {
+    .fourth-heading {
       font-size: 32px;
         font-family: 'Jost', sans-serif;
       letter-spacing: 4px;
@@ -267,7 +269,7 @@ min-height:7vh;
       width: 45%;
     }
 
-    .chef-desc {
+    .fourth-desc {
       font-size: 16px;
       line-height: 1.7;
       margin-bottom: 30px;
@@ -276,7 +278,7 @@ min-height:7vh;
       color: #ccc;
     }
 
-    .chef-btn {
+    .fourth-btn {
       padding: 12px 30px;
       margin-left: 2rem;
       border: 1px solid #c9a96e;
@@ -286,25 +288,25 @@ min-height:7vh;
     }
 
     /* RIGHT IMAGE */
-    .chef-image {
+    .fourth-image {
       flex: 1;
     }
 
-    .chef-image img {
+    .fourth-image img {
       width: 100%;
            min-height: 100vh;
       display: block;
     }
 
     /* FLOATING IMAGE */
-    .chef-floating {
+    .fourth-floating {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-30%, -50%);
     }
 
-    .chef-floating img {
+    .fourth-floating img {
       width: 200px;
       height: auto;
       box-shadow: 0 10px 30px rgba(0,0,0,0.4);
@@ -312,115 +314,146 @@ min-height:7vh;
 
     /* RESPONSIVE 🔥 */
     @media (max-width: 900px) {
-      .chef-container {
+      .fourth-container {
         flex-direction: column;
         text-align: center;
       }
 
-      .chef-floating {
+      .fourth-floating {
         position: static;
         transform: none;
         margin-top: 20px;
       }
 
-      .chef-title {
+      .fourth-title {
         font-size: 50px;
       }
 
-      .chef-heading {
+      .fourth-heading {
         font-size: 24px;
       }
     }
+/* ENDING OF FOURTH SECTION */
 
+/* BEGINNING OF FIFTH SECTION */
+    .fifth-section {
+      /* background: #0e2f2d; */
+      padding: 80px 20px;
+         width: calc(100vw - 55px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
+      /* background-color: green; */
+  min-height: 70vh;
+  position: relative;
+    }
 
+    /* MAIN CONTAINER (IMPORTA`NT 🔥) */
+    .fifth-container {
+      max-width: 1200px;
+      min-height: 70vh;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* gap: 120px; */
+      /* position: relative; */
+    }
 
-.fifth-section{
-    display: flex;
-    padding-left: 9rem;
-    margin-top:100rem;
-    /* justify-content: center; */
-    /* gap: 100px; */
-    /* margin-left: 20rem; */
-}
+    /* LEFT TEXT */
+    .fifth-text {
+      flex: 1;
+      color: #fff;
+      /* margin-left: 5rem; */
+    }
 
-.fifth-section-a{
-    width:20%;
-    margin-top: 90px;
+    .fifth-title {
+      font-family: 'Cormorant', serif;
+      margin-left: 10rem;
+      /* margin-top: 10rem; */
+      /* margin-left: -5rem; */
+      font-size: 110px;
+      font-weight: 400;
+      opacity: 0.1;
+      /* margin-bottom: -20px; */
+    }
 
-}
+    .fifth-heading {
+      font-size: 42px;
+        font-family: 'Jost', sans-serif;
+      letter-spacing: 4px;
+      margin-left: 15rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+      /* padding-left: 10rem; */
+      width: 45%;
+    }
 
-.fifth-section-a .chef{
-  font-size: 100px;
-  font-weight: 4;
-  font-family: 'Noto Serif', serif;
-  font-weight: 200;
-  letter-spacing: 10px;
-  opacity: 0.2;
-  margin-left: -10rem;
-  /* padding-top: 40px; */
+    .fifth-desc {
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+      max-width: 50%;
+            margin-left: 15rem;
 
-}
+      color: #ccc;
+    }
 
+    .fifth-btn {
+      padding: 12px 30px;
+      margin-left: 15rem;
+      border: 1px solid #c9a96e;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+    }
 
+    /* RIGHT IMAGE */
+    .fifth-image {
+      flex: 1;
+      margin-left: -30px;
+      /* padding-left: 10rem; */
+    }
 
-.fifth-section-a .great{
-   font-size: 36px;
-   /* letter-spacing: 2px; */
-   font-weight: 300;
-   letter-spacing: 3px;
-   line-height: 40px;
-   /* padding-left: 105px; */
-   margin-left: -50px;
-   /* background-color: yellow; */
-   width:90% ;
-}
-.fifth-section-a .lorem{
-   font-weight: 200;
-   margin-top: 21px;
-   line-height: 30px;
-   /* padding-left: 70px; */
-      margin-left: -50px;
-   /* background-color: green; */
-   width:298px ;
+    .fifth-image img {
+      width: 100%;
+           min-height: 100vh;
+      display: block;
+    }
 
-}
+    /* FLOATING IMAGE */
+    .fifth-floating {
+      position: absolute;
+      top: 60%;
+      left: 48%;
+      transform: translate(-30%, -50%);
+    }
 
-.fifth-section-a .read-more{
-    background: none;
-  height: 6.8vh;
-    width: 65%;
-    border: 1px solid burlywood;
-    cursor: pointer;
-    margin-top: 25px;
-      margin-left: -50px;
+    .fifth-floating img {
+      width: 200px;
+      height: auto;
+      /* box-shadow: 0 10px 30px rgba(0,0,0,0.4); */
+    }
 
-}
-.fifth-section-b{
-    margin-left: 4.7rem;
-}
+    /* RESPONSIVE 🔥 */
+    @media (max-width: 900px) {
+      .fifth-container {
+        flex-direction: column;
+        text-align: center;
+      }
 
-.fifth-section-b .image-c{
-   /* display: flex; */
-   position: absolute;
-   margin-top: 300px;
-   margin-left: 30rem;
-   /* background-color: blue; */
-}
+      .fifth-floating {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+      }
 
-.fifth-section-b .image-d{
-     /* flex-shrink: 0; */
-     width: 68%;
+      .fifth-title {
+        font-size: 50px;
+      }
 
-}
-.image-d {
-     flex-shrink: 0; 
-    
-}
-.image-d img{
-    /* width: 100%; */
-    height: auto;
-
-}
+      .fifth-heading {
+        font-size: 24px;
+      }
+    }
 
 
 /* COMPLEX AREA */
