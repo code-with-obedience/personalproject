@@ -455,13 +455,15 @@ min-height:7vh;
       }
     }
 
-
+/* BEGINNING OF */
 /* COMPLEX AREA */
  /* ============================ */ 
     .menu-hero {
-      position: relative;
-      width: 100%;
-      height: 480px;
+             width: calc(100vw - 55px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
+      /* background-color: green; */
+  min-height: 70vh;
+  position: relative;
       /* Free food image from Unsplash */
       background: url('h1-img2.jpg') center/cover no-repeat;
       display: flex;
@@ -668,12 +670,16 @@ min-height:7vh;
     ============================ */
     .menu-section {
       display: flex;
-      max-width: 1500px;
-      margin: 0 auto;
-      padding: 60px 40px;
-      gap: 20px;
+               width: calc(100vw - 55px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
       min-height: 100vh;
+      /* background-color: green; */
+  position: relative;
+      /* margin: 0 auto; */
+      padding: 100px 70px;
+      gap: 20px;
       font-family: 'Jost', sans-serif;
+      /* background-color: blue; */
       margin-top: 130px;
 
     }
@@ -692,7 +698,7 @@ min-height:7vh;
     .left-images .img-wrapper {
       width: 115%;
       max-width: 400px;
-      height:78vh;
+      height:75vh;
       aspect-ratio: 3/4;
       overflow: hidden;
       /* border-radius: 0 0 200px 0; */
@@ -720,7 +726,8 @@ min-height:7vh;
 
     .left-images .img-wrapper img {
       width: 100%;
-      height: 100%;
+      height: 90%;
+      /* position: absolute; */
       object-fit: cover;
       transition: transform 0.5s ease;
     }
@@ -733,11 +740,12 @@ min-height:7vh;
        CENTER MENU CONTENT
     ============================ */
     .center-menu {
-      flex: 1;
+      /* flex: 1; */
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 0 40px;
+      /* background-color: green; */
       font-family: 'Jost', sans-serif;
       /* margin-top: 200px; */
 
@@ -746,9 +754,9 @@ min-height:7vh;
     /* Category Block */
     .category {
       text-align: center;
-      margin-bottom: 50px;
-      width:80%;
-      max-width: 600px;
+      margin-bottom: 5%;
+      width:90%;
+      /* max-width: 600px; */
     }
 
     .category-title {
