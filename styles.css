@@ -1069,8 +1069,12 @@ min-height:7vh;
     ============================ */
     .reservation-section {
       display: flex;
-      max-width: 1600px;
-      margin: 0 auto;
+                 width: calc(100vw - 55px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
+      min-height: 100vh;
+      /* background-color: green; */
+  position: relative;
+      /* margin: 0 auto; */
       padding: 80px 60px;
       gap: 60px;
       min-height: 100vh;
