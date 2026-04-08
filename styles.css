@@ -31,9 +31,10 @@ body{
 }
 
 .main-div{
-    width: 100%;
-max-width: 1600px;
+    width: 90%;
+max-width: 1200px;
 min-height: 100vh;
+margin: 0 auto;
 }
 
 .heros{
@@ -41,8 +42,10 @@ min-height: 100vh;
     height: 100vh;
     overflow: hidden;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+            width: calc(100vw - 55px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
+  min-height: 70vh;
+  position: relative;
 }
 
 .heros-video{
@@ -218,95 +221,116 @@ min-height:7vh;
 }
 
 
-.fourth-section{
-    /* display: flex; */
-    position: relative;
-    /* padding-left: 9rem; */
-    margin-top:6.5rem;
-    /* justify-content: center; */
-    /* gap: 100px; */
-    /* margin-left: 20rem; */
-}
+    .chef-section {
+      /* background: #0e2f2d; */
+      padding: 80px 20px;
+         width: calc(100vw - 55px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
+  min-height: 70vh;
+  position: relative;
+    }
 
-.fourth-section-a{
-    width:20%;
-    min-height: auto;
-    background-color: black;
+    /* MAIN CONTAINER (IMPORTANT 🔥) */
+    .chef-container {
+      max-width: 1200px;
+      min-height: 70vh;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      position: relative;
+    }
 
-    position: absolute;
-    /* background-color: blue; */
-    /* margin-top: 38px; */
-}
+    /* LEFT TEXT */
+    .chef-text {
+      flex: 1;
+      color: #fff;
+    }
 
-.fourth-section-a .chef{
-  font-size: 100px;
-  font-weight: 4;
-  font-family: 'Noto Serif', serif;
-  font-weight: 200;
-  letter-spacing: 10px;
-  opacity: 0.2;
-  /* padding-top: 40px; */
+    .chef-title {
+      font-family: 'Cormorant', serif;
+      /* margin-left: -5rem; */
+      font-size: 100px;
+      font-weight: 300;
+      opacity: 0.1;
+      /* margin-bottom: -20px; */
+    }
 
-}
+    .chef-heading {
+      font-size: 32px;
+        font-family: 'Jost', sans-serif;
+      letter-spacing: 4px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      margin-left: 2rem;
+      width: 45%;
+    }
 
+    .chef-desc {
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+      max-width: 50%;
+      margin-left: 2rem;
+      color: #ccc;
+    }
 
-.fourth-section-a .great{
-   font-size: 36px;
-   /* letter-spacing: 2px; */
-   font-weight: 300;
-   letter-spacing: 3px;
-   line-height: 40px;
-   /* padding-left: 105px; */
-   margin-left: 93px;
-   /* background-color: yellow; */
-   width:90% ;
-}
-.fourth-section-a .lorem{
-   font-weight: 300;
-   margin-top: 21px;
-   line-height: 30px;
-   /* padding-left: 70px; */
-   margin-left: 93px;
-   /* background-color: green; */
-   width:298px ;
+    .chef-btn {
+      padding: 12px 30px;
+      margin-left: 2rem;
+      border: 1px solid #c9a96e;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+    }
 
-}
+    /* RIGHT IMAGE */
+    .chef-image {
+      flex: 1;
+    }
 
-.fourth-section-a .read-more{
-    background: none;
-  height: 6.8vh;
-    width: 65%;
-    border: 1px solid burlywood;
-    cursor: pointer;
-    margin-top: 25px;
-    margin-left: 93px;
-}
-.fourth-section-b{
-    margin-left: 21rem;
-}
+    .chef-image img {
+      width: 100%;
+           min-height: 100vh;
+      display: block;
+    }
 
-.fourth-section-b .image-a{
-   /* display: flex; */
-   position: absolute;
-   margin-top: 230px;
-   margin-left: -115px;
-   /* background-color: blue; */
-}
+    /* FLOATING IMAGE */
+    .chef-floating {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-30%, -50%);
+    }
 
-.fourth-section-b .image-b{
-     /* flex-shrink: 0; */
-     width: 76%;
+    .chef-floating img {
+      width: 200px;
+      height: auto;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
 
-}
-.image-b {
-     flex-shrink: 0; 
-    
-}
-.image-b img{
-    /* width: 100%; */
-    height: auto;
+    /* RESPONSIVE 🔥 */
+    @media (max-width: 900px) {
+      .chef-container {
+        flex-direction: column;
+        text-align: center;
+      }
 
-}
+      .chef-floating {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+      }
+
+      .chef-title {
+        font-size: 50px;
+      }
+
+      .chef-heading {
+        font-size: 24px;
+      }
+    }
 
 
 
