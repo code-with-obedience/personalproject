@@ -688,7 +688,7 @@ min-height:7vh;
        LEFT IMAGES COLUMN
     ============================ */
     .left-images {
-      flex: 0 0 25%;
+      /* flex: 0 0 25%; */
       display: flex;
       flex-direction: column;
       gap: 40px;
@@ -696,9 +696,9 @@ min-height:7vh;
     }
 
     .left-images .img-wrapper {
-      width: 115%;
-      max-width: 400px;
-      height:75vh;
+      width: 80%;
+      /* max-width: 400px; */
+      height:70vh;
       aspect-ratio: 3/4;
       overflow: hidden;
       /* border-radius: 0 0 200px 0; */
@@ -726,7 +726,7 @@ min-height:7vh;
 
     .left-images .img-wrapper img {
       width: 100%;
-      height: 90%;
+      height: 100%;
       /* position: absolute; */
       object-fit: cover;
       transition: transform 0.5s ease;
