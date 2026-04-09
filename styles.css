@@ -30,6 +30,27 @@ body{
 
 }
 
+  @media (max-width: 1200px) {
+    .line-design{
+    /* width: 600px; */
+    /* height: 50vh; */
+    /* background-color: yellow; */
+     position: absolute;
+  z-index: -1;
+  width:420px;
+  min-height: 1205rem;
+  /* background:#ddd; */
+  /* position:absolute; */
+  /* top:50%; */
+  left:50%;
+  transform:translate(-50%, -50%);
+  border: 1px solid gray;
+  border-bottom: none;
+  opacity: 0.8;
+
+}
+  }
+
 .main-div{
     width: 90%;
 max-width: 1200px;
@@ -1445,8 +1466,12 @@ background-color: rgb(16,43,42);
 /* FOURTH COMPLEX */
 /* BEGINNING OF SIXTH SECTION */
 .sixth-section{
-    width: 100%;
-    height: 555px;
+               width: calc(100vw - 55px); /* full width minus 20px + 20px */
+  margin-left: calc(-50vw + 50% + 28px); /* shift + add left spacing */
+      min-height: 70vh;
+      /* background-color: green; */
+  position: relative;
+    /* height: 555px; */
     /* background-color: yellow; */
     background-image: url(h1-img8.jpg);
     background-size: cover;
@@ -1567,7 +1592,7 @@ background-color: rgb(16,43,42);
 .fifth-complex{
     margin-top: 135px;
 text-align: center;
-margin-bottom: 50px;
+margin-bottom: 20px;  
 }
 .fifth-complex p.book{
     font-size: 40px;
@@ -1590,11 +1615,12 @@ margin-bottom: 50px;
     justify-content: center;
     gap: 129px;
     margin-top: 60px;
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
 }
 .fifth-complex-one{
-   width: 380px;
-        height: 480px;
+   width: 30%;
+        height: 400px;
+        margin-left: -20px;
     background-color: yellow;
     background-image:url(events-img1.jpg);
     background-size: cover;
@@ -1610,7 +1636,7 @@ margin-bottom: 50px;
 }
 
 .fifth-complex-one p.celeberate{
-        padding-top: 515px;
+               padding-top: 440px;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -1620,13 +1646,15 @@ margin-bottom: 50px;
 
 .fifth-complex-two{
     width: 380px;
-        height: 480px;
+        height: 400px;
     background-color: yellow;
     background-image: url(events-img2.jpg);
     background-size: cover;
     text-align: center;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
+        margin-left: 40px;
+
     
 }
 .fifth-complex-two p{
@@ -1637,7 +1665,7 @@ margin-bottom: 50px;
 }
 
 .fifth-complex-two p.celeberate{
-    padding-top: 515px;
+           padding-top: 440px;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -1647,7 +1675,7 @@ margin-bottom: 50px;
 
 .fifth-complex-three{
   width: 380px;
-        height: 480px;
+        height: 400px;
     background-color: yellow;
     background-image: url(events-img3.jpg);
     background-size: cover;
@@ -1664,12 +1692,125 @@ margin-bottom: 50px;
 }
 
 .fifth-complex-three p.celeberate{
-        padding-top: 515px;
+        padding-top: 440px;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 2px;
     padding-bottom: 10px;
 }
+
+  @media (max-width: 1200px) {
+     .fifth-complex{
+    margin-top: 135px;
+text-align: center;
+margin-bottom: 20px;  
+}
+.fifth-complex p.book{
+    font-size: 40px;
+    letter-spacing:5px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.fifth-complex p{
+    font-weight: 300;
+    font-size: 18.7px;
+    color: rgb(220, 229, 231);
+
+}
+/* ENDING */
+
+/* BEGINNING OF FIFTH AREA */
+
+.fifth-complex-b{
+    display: flex;
+    justify-content: center;
+    gap: 129px;
+    margin-top: 60px;
+    /* margin-bottom: 300px; */
+}
+.fifth-complex-one{
+   width: 40%;
+        height: 350px;
+        margin-left: -20px;
+    background-color: yellow;
+    background-image:url(events-img1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.fifth-complex-one p{
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(220, 229, 231);
+    font-size: 17px;
+    
+
+}
+
+.fifth-complex-one p.celeberate{
+               padding-top: 440px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+
+}
+
+.fifth-complex-two{
+    width: 380px;
+        height: 400px;
+    background-color: yellow;
+    background-image: url(events-img2.jpg);
+    background-size: cover;
+    text-align: center;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+        margin-left: 40px;
+
+    
+}
+.fifth-complex-two p{
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(220, 229, 231);
+    font-size: 17px;
+}
+
+.fifth-complex-two p.celeberate{
+           padding-top: 440px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+
+}
+
+.fifth-complex-three{
+  width: 380px;
+        height: 400px;
+    background-color: yellow;
+    background-image: url(events-img3.jpg);
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+.fifth-complex-three p{
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(220, 229, 231);
+    font-size: 17px;
+
+}
+
+.fifth-complex-three p.celeberate{
+        padding-top: 440px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+    }
 
 /* FIFTH COMPLEX END */
 
@@ -1678,6 +1819,7 @@ margin-bottom: 50px;
 .testimonial{
   display: flex;
   min-height: 79vh;
+  margin-top: 200px;
 }
 
 /* LEFT SIDE */
